@@ -1,50 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Cursor Test 1</title>
+	<title>CursorTest2</title>
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-	<link rel="stylesheet" href="coleJQueryClick1.css">
+	<link rel="stylesheet" href="coleJQueryClick2.css">
 
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-	<script src="coleJQueryClick1.js"></script>
+	<script src="coleJQueryClick2.js"></script>
 
 	 <script type="text/javascript" src="paper-full.js"></script>
     <script type="text/paperscript" canvas="canvas">
 
 
-var mousePoint = view.center;
+var startSize = 55;
+
+var circlePath = new Path.Circle(new Point(50, 50), startSize);
+
+
+circlePath.fillColor = 'red'
 
 function onMouseMove(event) {
-	mousePoint = event.point;
+	circlePath.position = event.point;
 }
-
-
-var children = project.activeLayer.children;
 
 function onFrame(event) {
-
-	for (var i = 0, l = children.length; i < l; i++) {
-
-		var item = children[i];
-
-		var delta = (mousePoint - item.position) / (i+1);
-
-		if (delta.length > 0.1)
-			item.position += delta;
-
-	}
-}
-
-tool.onMouseUp = function(event) {
-
-    var path = new Path.Circle({
-        center: mousePoint,
-        radius: 10,
-        fillColor: 'black'
-    });
+	circlePath.fillColor.hue += 1;
+	startSize += 10;
 }
 
 
