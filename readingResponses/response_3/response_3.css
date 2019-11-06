@@ -1,0 +1,25 @@
+@font-face {
+  font-family: roslindale;
+  src: url(RoslindaleDisplayCondensed-Bold-Edu.woff2);
+}
+body{
+	width: 10000px;
+	height:7000px;
+	background-color: black;
+}
+.title{
+	margin-top: -100px;
+	position:relative;
+	font-family: roslindale;
+	font-size: 900px;
+	color: white;
+	z-index: 30;
+}
+.body{
+/*	margin-top: -100px;*/
+	position:relative;
+	font-family: roslindale;
+	font-size: 400px;
+	color: white;
+	z-index: 30;
+}
