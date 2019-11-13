@@ -8,15 +8,85 @@
         background: red;
         transition: 0.5s;
       }*/
+@font-face {
+  font-family: avara;
+  src: url(avara.woff2);
+}
+body{
+    background-color: white;
+}
+.part1{
+    width: 90vw;
+    left: 10vw;
+    top: 0vh;
+}
+.part2{
+    width:40vw;
+    left: 5vw;
+    top:25vh;
+}
+.part3{
+    width:40vw;
+    left: 55vw;
+    top:25vh;
+}
+.part4{
+    width: 90vw;
+    left: 10vw;
+    top: 65vh;
+}
+.part5{
+    width: 40vw;
+    left: 20vw;
+    top: 75vh;
+}
 
+.bigQuote{
+    font-family: avara;
+    font-size: 3vw;
+    color: black;
+    z-index: -100;
+    position: absolute;
+}
 
+.bgSettings{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
 .test{
-    width: 2000px;
-    height: 1000px;
-    background-image: url("../img/lookingToChatGif.gif");
-    background-size: 1000px 700px;
-    position: absolute;
-    border: 1px #000 solid;
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    transition: 0.01s;
+    border: 4px black solid;
+    background-image: url(../img/x.png);
+}
+.yeehaw{
+    top: 20vh;
+    left: 50vw;
+    width: 30vw;
+    height: 40vh;
+    position: fixed;
+    border: 4px black solid;
     transition: 0.5s;
+    background-image: url(../img/ad.png);
+}
+.test2{
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    transition: 0.01s;
+    border: 4px black solid;
+    background-image: url(../img/x.png);
+}
+.yeehaw2{
+    top: 20vh;
+    left: 20vw;
+    width: 30vw;
+    height: 40vh;
+    position: fixed;
+    border: 5px #000 solid;
+    background-image: url(../img/ad.png);
 }
