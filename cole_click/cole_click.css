@@ -13,7 +13,8 @@
   src: url(avara.woff2);
 }
 body{
-    background-color: white;
+    background-color: white;    
+    user-select: none;
 }
 .part1{
     width: 90vw;
@@ -47,7 +48,6 @@ body{
     color: black;
     z-index: -100;
     position: absolute;
-    user-select: none;
 }
 
 .bgSettings{
