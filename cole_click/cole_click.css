@@ -47,6 +47,7 @@ body{
     color: black;
     z-index: -100;
     position: absolute;
+    user-select: none;
 }
 
 .bgSettings{
