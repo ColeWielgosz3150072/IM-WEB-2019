@@ -1,0 +1,179 @@
+@font-face {
+  font-family: beatriceBold;
+  src: url(BeatriceBold.otf);
+}
+body{
+	margin:0;
+	width:370vw;
+	height: 280vh;
+	cursor: crosshair;
+}
+
+.avLink{
+	width: 40vw;
+	height: 50vh;
+	left: 60px;
+	top: 750px;
+	font-family: beatriceBold;
+	font-size: 50px;
+	color: #0062ff;
+	position: absolute;
+	z-index: 10;
+}
+.apiLink{
+	width: 40vw;
+	height: 50vh;
+	left: 60px;
+	top: 750px;
+	font-family: beatriceBold;
+	font-size: 50px;
+	color: #0062ff;
+	position: absolute;
+	z-index: 10;
+}
+.uninhabitableLink{
+	width: 50vw;
+	height: 50vh;
+	left: 1000px;
+	top: 100px;
+	font-family: beatriceBold;
+	font-size: 50px;
+	color: #0062ff;
+	position: absolute;
+	z-index: 10;
+}
+.backgroundCentre{
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.clock{
+	width: 60vw;
+	height: 40vh;
+	left: 0vw;
+	top: 0vh;
+	background-color: #0042f7;
+	background-image: url(../../img/doomsdayClock.jpg);
+	background-blend-mode: screen;
+	position: absolute;
+	opacity: 70%;
+	z-index: 0;
+}
+.clockInfo{
+	width: 40vw;
+	height: 50vh;
+	left: 35vw;
+	top:20vh;
+	font-family: beatriceBold;
+	color: black;
+	position: absolute;
+	z-index: 10;
+}
+.climateAPI{
+	width: 40vw;
+	height: 50vh;
+	left: 865px;
+	top: 500px;
+	font-family: beatriceBold;
+	color: black;
+	position: absolute;
+	z-index: 10;
+}
+.HK{
+	width: 60vw;
+	height: 70vh;
+	left: 200vw;
+	top: 200vh;
+	background-color: #0042f7;
+	background-image: url(../../img/HK.png);
+	background-blend-mode: screen;
+	position: absolute;
+	opacity: 70%;
+	z-index: 0;
+}
+.floodComp{
+	width: 100vw;
+	height: 40vh;
+	left: 35vw;
+	top:190vh;
+	font-family: beatriceBold;
+	color: black;
+	position: absolute;
+	z-index: 10;
+}
+
+.intent{
+	width: 70vw;
+	height: 40vh;
+	left: 160vw;
+	top:100vh;
+	font-family: beatriceBold;
+	color: black;
+	font-size: 60px;
+	position: absolute;
+	z-index: 10;
+}
+.iceMelt{
+	width: 60vw;
+	height: 70vh;
+	left: 200vw;
+	top: 0vh;
+	background-color: #0042f7;
+	background-image: url(../../img/iceMelt.png);
+	background-blend-mode: screen;
+	position: absolute;
+	opacity: 70%;
+	z-index: 0;
+}
+.locationLink{
+	width: 40vw;
+	height: 50vh;
+	left: 3500px;
+	top: 1500px;
+	font-family: beatriceBold;
+	font-size: 50px;
+	color: #0062ff;
+	position: absolute;
+	z-index: 10;
+}
+.paperWater{
+	width: 60vw;
+	height: 70vh;
+	left: 300vw;
+	top: 200vh;
+	background-color: #0042f7;
+	background-image: url(../../img/paper.png);
+	background-blend-mode: screen;
+	position: absolute;
+	opacity: 70%;
+	z-index: 0;
+}
+
+.steps{
+	width: 80vw;
+	height: 50vh;
+	left: -2000px;
+	top: -2000px;
+	font-family: beatriceBold;
+	font-size: 50px;
+	color: black;
+	position: absolute;
+	z-index: 10;
+}
+
+.hummingbird{
+	width: 50vw;
+	height: 60vh;
+	left: 280vw;
+	top: 70vh;
+	background-color: #0042f7;
+	background-image: url(../../img/hummingbird.png);
+	background-blend-mode: screen;
+	position: absolute;
+	opacity: 70%;
+	z-index: 0;
+}
+
+
+
+
