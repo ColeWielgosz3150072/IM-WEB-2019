@@ -72,7 +72,7 @@ body{
     position: fixed;
     border: 4px black solid;
     transition: 0.5s;
-    background-image: url(../img/ad.jpg);
+/*    background-image: url(../img/ad.jpg);*/
 }
 .test2{
     width: 20px;
@@ -89,5 +89,5 @@ body{
     height: 40vh;
     position: fixed;
     border: 5px #000 solid;
-    background-image: url(../img/ad.jpg);
+/*    background-image: url(../img/ad.jpg);*/
 }
