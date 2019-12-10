@@ -1,0 +1,24 @@
+.hewwo{
+	font-size: 100px;
+}
+#hewwo{
+	background-color: black;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 7000px;
+}
+#harryPotterAndTheChamberOfSecrets{
+	background:green;
+	width: 500px;
+	height: 40px;
+	position: absolute;
+
+	top: 3000px;
+	left:2000px;
+}
+
+.bigTemp{
+	font-size: 100px;
+	font-family: helvetica;
+}
